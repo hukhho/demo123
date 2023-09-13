@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000, https://project-final-peach.vercel.app")
+                        .allowedOrigins("http://localhost:3000, http://170.187.198.18:3000, https://project-final-peach.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE") // Add the allowed HTTP methods
                         .allowCredentials(true); // Allow sending cookies
             }
