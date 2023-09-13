@@ -60,6 +60,7 @@ dependencies {
     implementation 'fr.opensagres.xdocreport:fr.opensagres.poi.xwpf.converter.xhtml:2.0.2'
     implementation 'fr.opensagres.xdocreport:fr.opensagres.xdocreport.converter.docx.xwpf:2.0.4'
     implementation 'org.odftoolkit:odfdom-java:0.8.7'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
 
 
 //    implementation 'org.freemarker:freemarker:2.3.32'
