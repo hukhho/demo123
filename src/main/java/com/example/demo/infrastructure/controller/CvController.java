@@ -47,6 +47,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/cv")
+@CrossOrigin(origins = "*")
 public class CvController {
     @Autowired
     private UserService userService;

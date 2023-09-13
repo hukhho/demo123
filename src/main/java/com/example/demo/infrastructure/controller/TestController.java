@@ -28,6 +28,7 @@ import java.io.InputStream;
 
 @RestController
 @RequestMapping("/api/cv")
+@CrossOrigin(origins = "*")
 
 public class TestController {
 //    @GetMapping("/toHtml")
